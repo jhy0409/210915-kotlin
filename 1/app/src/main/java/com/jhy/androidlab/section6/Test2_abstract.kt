@@ -1,8 +1,6 @@
-package com.jhy.androidlab.section6
+package com.jhy.androidlab.section6.test2
 
-import com.jhy.androidlab.section6.test1.Super
-
-abstract class Super {
+abstract class Super2 {
     abstract val data1: String
 
     open fun some1() {
@@ -24,7 +22,7 @@ interface MyInterface {
     fun some5()
 }
 
-class Sub: Super(), MyInterface {
+class Sub: Super2(), MyInterface {
     override fun some2() {
 
     }
